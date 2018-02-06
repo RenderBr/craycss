@@ -27,6 +27,7 @@ html, html * {
 	border-color:blue;
 	color:white;
 	border-radius:5px;
+	bord
 }
 
 .bton-bad{
@@ -37,6 +38,23 @@ html, html * {
 .bton-okay{
 	background-color:yellow;
 	border-color:yellow;
+	color:black;
+}
+
+.bton-good{
+	background-color:green;
+	border-color:green;
+}
+
+.bton-dark{
+	background-color:black;
+	border-color:black;
+}
+
+.bton-light{
+	background-color:white;
+	border-color:#dcdada;
+	color:black;
 }
 
 code{
@@ -57,3 +75,16 @@ code{
 	border-width:5px;
 	border: 1px solid #4d4d4d;
 	}
+	
+.box-whole{
+	background: #eee;
+    overflow: hidden;
+    padding: 20px;
+	border-radius:5px;
+	border-width:5px;
+	border: 1px solid #4d4d4d;
+	}
+	
+.triangle {
+	background: url(assets/ps_triangle.png);
+}
