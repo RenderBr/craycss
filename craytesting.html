@@ -1,7 +1,9 @@
- <link rel="stylesheet"
-          href="cray.css">
-
+<link rel="stylesheet"href="cray.css">
+<script src="jquery-slim.min.js"></script>
 <html>
+<head>
+<title>CrayCSS Documentation</title>
+</head>
 <body>
 <h1>Typography</h1>
 All text is changed to the Roboto font!
@@ -34,23 +36,23 @@ All headers have the Roboto font similar to all other text.
 <strong>Don't forget sub-headings or bold text with the strong tag</strong>
 <br>
 <h1>Buttons</h1>
-Use the class "bton" on a button tag to get a button.
+Use the class "btn" on a button tag to get a button.
 <br>
-<button class="bton" onclick="this.blur();">bton</button>
+<button class="btn" onclick="this.blur();">btn</button>
 <br>
-Use the class "bton" on an input with <code>type="button"</code> to get a button.
+Use the class "btn" on an input with <code>type="button"</code> to get a button.
 <br>
-<input type="button" class="bton" value="bton"></input>
+<input type="button" class="btn" value="btn"></input>
 <br>
 <br>
-There are different colored buttons such as "bton, bton-bad, bton-okay, bton-good, bton-dark, and bton-light"
+There are different colored buttons such as "btn, btn-bad, btn-okay, btn-good, btn-dark, and btn-light"
 <br>
-<button class="bton">bton</button> <button class="bton bton-bad">bton-bad</button></button> <button class="bton bton-okay">bton-okay</button><button class="bton bton-good">bton-good</button><button class="bton bton-dark">bton-dark</button><button class="bton bton-light">bton-light</button>
+<button class="btn">btn</button> <button class="btn btn-bad">btn-bad</button></button> <button class="btn btn-okay">btn-okay</button><button class="btn btn-good">btn-good</button><button class="btn btn-dark">btn-dark</button><button class="btn btn-light">btn-light</button>
 <br>
 <br>
 Outline only buttons are a thing too! Use the classes inside of the buttons!
 <br>
-<button class="bton bton-outline">bton bton-outline</button> <button class="bton bton-bad-outline">bton-bad bton-bad-outline</button></button> <button class="bton bton-okay-outline">bton-okay btn-okay-outline</button><button class="bton bton-good-outline">bton-good bton-good-outline</button>
+<button class="btn btn-outline">btn btn-outline</button> <button class="btn btn-bad-outline">btn-bad btn-bad-outline</button></button> <button class="btn btn-okay-outline">btn-okay btn-okay-outline</button><button class="btn btn-good-outline">btn-good btn-good-outline</button>
 
 <h1>Boxes</h1>
 Put stuff into boxes as containers.
@@ -81,20 +83,35 @@ For a styled checkbox, use <code>class="cbox"</code>
 <br>
 <br>
 <h1>Badges</h1>
-Use the <code>class "bdge"</code> in a span to get a badge.
+Use the <code>class "badge"</code> in a span to get a badge.
 <br>
 <br>
-<span class="bdge">class="badge"</span>
+<span class="badge">class="badge"</span>
 <br>
 <br>
 Use these classes to change the color:
 <br>
 <br>
-<span class="bdge bdge-bad">bdge bdge-bad</span>
-<span class="bdge bdge-okay">bdge bdge-okay</span>
-<span class="bdge bdge-good">bdge bdge-good</span>
-<span class="bdge bdge-light">bdge bdge-light</span>
-
+<span class="badge badge-default">badge badge-default</span>
+<span class="badge badge-bad">badge badge-bad</span>
+<span class="badge badge-okay">badge badge-okay</span>
+<span class="badge badge-good">badge badge-good</span>
+<span class="badge badge-light">badge badge-light</span>
+<br>
+<br>
+<h1>Alerts</h1>
+Use the <code>class="alert"</code> in a div to get an alert.
+<br>
+<div class="alert">class="alert"></div>
+<br>
+Use these classes to change the color of the alert:
+<br>
+<br>
+<div class="alert alert-default">class="alert alert-default"</div>
+<div class="alert alert-bad">class="alert alert-bad"</div>
+<div class="alert alert-okay">class="alert alert-okay"</div>
+<div class="alert alert-good">class="alert alert-good"</div>
+<div class="alert alert-light">class="alert alert-light"</div>
 
 </body>
 </html>
