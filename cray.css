@@ -87,6 +87,42 @@ h1{
 	color:#8f9093;
 }
 
+.bton-outline{
+    color: #7289DA;
+    background-color: transparent;
+    background-image: none;
+    border-color: #7289DA !important;
+    border-width: 2px !important;
+    border-style: solid;
+}
+
+.bton-bad-outline{
+    color: #ff463c;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ff463c !important;
+    border-width: 2px !important;
+    border-style: solid;
+}
+
+.bton-okay-outline{
+    color: #faa61a;
+    background-color: transparent;
+    background-image: none;
+    border-color: #faa61a !important;
+    border-width: 2px !important;
+    border-style: solid;
+}
+
+.bton-good-outline{
+    color: #0fa763;
+    background-color: transparent;
+    background-image: none;
+    border-color: #0fa763 !important;
+    border-width: 2px !important;
+    border-style: solid;
+}
+
 code{
 	padding: 2px 2px;
     color: #fff;
