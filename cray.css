@@ -167,3 +167,36 @@
  .bton-outline-bad{
      background-color:#ff463c00;
 }
+
+.bdge {
+	position: relative;
+	display: inline-block;
+	font-size:inherit;
+	padding: 0.25em 0.4em;
+	background-color:#2C2F33;
+	color:#8f9093;
+	background-size:10px;
+	margin:0 5px 5px 0;
+	vertical-align: baseline;
+	border-radius: 3px;
+}
+
+.bdge-bad{
+	color:white;
+	background-color:ff463c;
+}
+
+.bdge-okay{
+     background-color:#faa61a;
+	 color:white;
+}
+
+.bdge-good{
+	background-color:#0fa763;
+	color:white;
+}
+
+.bdge-light{
+     background-color:#ffffff;
+     color:#8f9093;
+}
