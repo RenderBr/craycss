@@ -3,6 +3,27 @@ html, html * {
   font-family: Roboto;
 }
 
+body {
+	background-color:#23272A;
+	}
+
+body > h1, h2, h3, h4, h5, h6 {
+	color:#FFFFFF;
+}
+
+html > body {
+	color:#8f9093;
+}
+	
+h1{
+
+}
+
+.white {
+	color:black;
+	background-color:white;
+}
+
 .big {
 	font-size: 50px;
 }
@@ -20,41 +41,50 @@ html, html * {
 }
 
 .bton{
-	background-color:blue;
+	background-color:#7289DA;
 	padding:2px;
 	padding-left:5px;
 	padding-right:5px;
-	border-color:blue;
+	border-color:#7289DA;
 	color:white;
-	border-radius:5px;
-	bord
+	border-radius:3px;
+	border:none;
+	padding: 10px 15.5px;
+	margin: inherit;
 }
 
 .bton-bad{
-	background-color:red;
-	border-color:red;
+	background-color:#ff463c;
+}
+
+.bton:hover{
+    bottom : 2px;
+    position: relative;
+}
+
+.bton:focus {
+	outline:none;
+}
+
+.bton:active {
+	-webkit-filter: blur(1px);
 }
 
 .bton-okay{
-	background-color:yellow;
-	border-color:yellow;
-	color:black;
+	background-color:#faa61a;
 }
 
 .bton-good{
-	background-color:green;
-	border-color:green;
+	background-color:#0fa763;
 }
 
 .bton-dark{
-	background-color:black;
-	border-color:black;
+	background-color:#36393e;
 }
 
 .bton-light{
-	background-color:white;
-	border-color:#dcdada;
-	color:black;
+	background-color:#ffffff;
+	color:#8f9093;
 }
 
 code{
@@ -67,22 +97,22 @@ code{
 }
 
 .box{
-	background: #eee;
+	background: #2C2F33;
     overflow: hidden;
     max-width: 100px;
     padding: 20px;
 	border-radius:5px;
 	border-width:5px;
-	border: 1px solid #4d4d4d;
+	border: 1px solid #2C2F33;
 	}
 	
 .box-whole{
-	background: #eee;
+	background: #2C2F33;
     overflow: hidden;
     padding: 20px;
 	border-radius:5px;
 	border-width:5px;
-	border: 1px solid #4d4d4d;
+	border: 1px solid #2C2F33;
 	}
 	
 .triangle {
