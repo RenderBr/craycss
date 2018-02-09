@@ -292,3 +292,11 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+blockquote > p:before, blockquote > p:after{
+	content: '"' !important;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
