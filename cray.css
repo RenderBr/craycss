@@ -252,6 +252,18 @@
   line-height: 1.2;
 }
 
+.display-5 {
+  font-size: 2.5rem;
+  font-weight: 250;
+  line-height: 1.2;
+}
+
+.display-6 {
+  font-size: 1.5rem;
+  font-weight: 250;
+  line-height: 1.2;
+}
+
 
 .container {
   width: 100%;
@@ -299,4 +311,26 @@ blockquote > p:before, blockquote > p:after{
 
 .text-muted {
   color: #6c757d !important;
+}
+.avatar{
+	border-radius:50%
+}
+.sq-avatar{
+	border-radius:25%
+}
+.avatar-sm{
+	width:40px;
+	height:40px;
+}
+.avatar-m{
+	width:80px;
+	height:80px;
+}
+.avatar-lg{
+	width:120px;
+	height:120px;
+}
+.avatar-xl{
+	width:240px;
+	height:240px;
 }
